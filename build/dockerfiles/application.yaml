@@ -38,14 +38,6 @@ spring:
     jdbc:
       initialize-schema: never
 
-  security:
-      oauth2:
-        client:
-          registration:
-            github:
-              client-id: foo
-              client-secret: foo
-
 management:
   health:
     probes:
@@ -75,6 +67,8 @@ bucket4j:
   enabled: false
 
 ovsx:
+  redis:
+    enabled: false
   elasticsearch:
     enabled: false
     clear-on-start: true
@@ -85,7 +79,7 @@ ovsx:
   databasesearch:
     enabled: true
   registry:
-    version: 'v0.19.0'
+    version: 'v0.29.0'
   storage:
     local:
       directory: /tmp/extensions
