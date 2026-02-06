@@ -11,8 +11,8 @@
 #   IBM Corporation - implementation
 #
 
-# https://registry.access.redhat.com/rhel8/postgresql-15
-FROM registry.redhat.io/rhel8/postgresql-15:1-50.1708914865
+# https://registry.access.redhat.com/rhel9/postgresql-15
+FROM registry.redhat.io/rhel9/postgresql-15:1-1760372009
 USER 0
 WORKDIR /
 
@@ -119,12 +119,10 @@ RUN chmod 777 /var/run/postgresql && \
     mkdir -p /tmp/extensions && \
     initdb && \
     /usr/local/bin/import_vsix.sh && \
-    chmod -R 777 /tmp/file && \
     chmod -R 777 /tmp/extensions && \
     rm /var/lib/pgsql/15/data/database/postmaster.pid && \
     rm /var/run/postgresql/.s.PGSQL* && \
-    rm /tmp/.s.PGSQL* && \
-    rm /tmp/.lock
+    rm /tmp/.s.PGSQL*
 
 RUN \
     echo "Change permissions for postgres user" && \

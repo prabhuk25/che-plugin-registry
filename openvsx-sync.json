@@ -33,7 +33,7 @@
   },
   {
     "id": "redhat.vscode-yaml",
-    "version": "1.18.0"
+    "version": "1.19.1"
   },
   {
     "id": "vscode.github-authentication",
@@ -53,7 +53,7 @@
   },
   {
     "id": "eclipse-cdt.cdt-gdb-vscode",
-    "version": "2.2.0"
+    "version": "2.4.1"
   },
   {
     "id": "bmewburn.vscode-intelephense-client",
@@ -61,19 +61,19 @@
   },
   {
     "id": "ms-python.python",
-    "version": "2025.4.0"
+    "version": "2025.16.0"
   },
   {
     "id": "ms-python.black-formatter",
-    "version": "2024.6.0"
+    "version": "2025.2.0"
   },
   {
     "id": "ms-python.debugpy",
-    "version": "2025.6.0"
+    "version": "2025.14.1"
   },
   {
     "id": "ms-python.pylint",
-    "version": "2024.2.0"
+    "version": "2025.2.0"
   },
   {
     "id": "ms-python.isort",
@@ -101,7 +101,7 @@
   },
   {
     "id": "golang.Go",
-    "version": "0.48.0"
+    "version": "0.50.0"
   },
   {
     "id": "ms-kubernetes-tools.vscode-kubernetes-tools",
@@ -109,7 +109,7 @@
   },
   {
     "id": "redhat.java",
-    "version": "1.44.0"
+    "version": "1.46.0"
   },
   {
     "id": "vscjava.vscode-java-debug",
@@ -133,7 +133,7 @@
   },
   {
     "id": "redhat.fabric8-analytics",
-    "version": "0.9.6"
+    "version": "0.10.1"
   },
   {
     "id": "redhat.vscode-redhat-account",
@@ -141,7 +141,7 @@
   },
   {
     "id": "redhat.vscode-openshift-connector",
-    "version": "1.20.0"
+    "version": "1.21.0"
   },
   {
     "id": "xdebug.php-debug",
@@ -153,11 +153,11 @@
   },
   {
     "id": "muhammad-sammy.csharp",
-    "version": "2.84.19"
+    "version": "2.90.60"
   },
   {
     "id": "SonarSource.sonarlint-vscode",
-    "version": "4.29.0"
+    "version": "4.33.0"
   },
   {
     "id": "vscode.git-base",
@@ -177,11 +177,11 @@
   },
   {
     "id": "atlassian.atlascode",
-    "version": "3.8.10"
+    "version": "4.0.4"
   },
   {
     "id": "JFrog.jfrog-vscode-extension",
-    "version": "2.14.2"
+    "version": "2.14.5"
   },
   {
     "id": "SonatypeCommunity.vscode-iq-plugin",
@@ -189,7 +189,7 @@
   },
   {
     "id": "GitLab.gitlab-workflow",
-    "version": "6.38.1"
+    "version": "6.49.11"
   },
   {
     "id": "timonwong.shellcheck",
@@ -197,7 +197,7 @@
   },
   {
     "id": "redhat.ansible",
-    "version": "25.8.1"
+    "version": "25.9.0"
   },
   {
     "id": "vscode.npm",
@@ -209,11 +209,11 @@
   },
   {
     "id": "eamodio.gitlens",
-    "version": "17.3.4"
+    "version": "17.6.2"
   },
   {
     "id": "Continue.continue",
-    "version": "1.0.24"
+    "version": "1.2.10"
   },
   {
     "id": "typefox.open-collaboration-tools",
@@ -233,23 +233,23 @@
   },
   {
     "id": "Zowe.vscode-extension-for-zowe",
-    "version": "3.2.2"
+    "version": "3.3.0"
   },
   {
     "id": "Zowe.zowe-explorer-ftp-extension",
-    "version": "3.2.2"
+    "version": "3.3.0"
   },
   {
     "id": "Zowe.cics-extension-for-zowe",
-    "version": "3.11.0"
+    "version": "3.13.2"
   },
   {
     "id": "IBM.zopeneditor",
-    "version": "5.6.0"
+    "version": "5.7.1"
   },
   {
     "id": "IBM.zopendebug",
-    "version": "5.5.1"
+    "version": "5.5.3"
   },
   {
     "id": "Zowe.secrets-for-kubernetes",

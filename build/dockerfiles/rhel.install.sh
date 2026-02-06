@@ -35,7 +35,7 @@ ${DNF} -y install \
 ${DNF} -y module reset nodejs && \
     ${DNF} -y module enable nodejs:${NODEJS_VERSION} && \
     ln -s /usr/lib/node_modules/nodemon/bin/nodemon.js /usr/bin/nodemon && \
-    ${DNF} install -y --setopt=tsflags=nodocs nodejs npm nodejs-nodemon nss_wrapper make gcc gcc-c++ libatomic_ops git openssl-devel && \
+    ${DNF} install -y --setopt=tsflags=nodocs nodejs npm nodejs-nodemon nss_wrapper make gcc gcc-c++ git openssl-devel && \
     ${DNF} -y update && ${DNF} -y clean all && rm -rf /var/cache/yum /var/log/dnf* /var/log/yum.* && \
     echo "Installed Packages" && rpm -qa | sort -V && echo "End Of Installed Packages"
 

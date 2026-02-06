@@ -6,10 +6,10 @@
 # SPDX-License-Identifier: EPL-2.0
 #
 
-# https://registry.access.redhat.com/ubi8/ubi
-FROM registry.access.redhat.com/ubi8/ubi:8.9-1028 as builder
+# https://registry.access.redhat.com/ubi9/ubi
+FROM registry.access.redhat.com/ubi9/ubi:9.6-1760340943 as builder
 
-RUN yum install java-17-openjdk-devel git jq unzip curl -y --nodocs && \
+RUN yum install java-17-openjdk-devel git jq unzip -y --nodocs && \
     yum update -q -y 
 
 ARG OPENVSX_VERSION
