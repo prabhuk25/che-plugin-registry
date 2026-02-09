@@ -72,6 +72,6 @@ commands:
       component: builder
       commandLine: rm -rf .local/share/ /home/user/.local/share/containers/storage && /entrypoint.sh
 
-events:
-  postStart:
-    - "cleanup-local-files"
+# events:
+#   postStart:
+#     - "cleanup-local-files"
